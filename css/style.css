@@ -1,4 +1,4 @@
-hml, body {
+html, body {
   overflow-x:hidden;
 }
 
@@ -46,10 +46,11 @@ p {
    margin:0 2% 20px;
  }
 
-  @media (min-width: 768px) {
+  @media (min-width: 320px and max-width: 768px) {
     .container {
-      width: 750px;
+      width: 100%;
     }
+  }
 
     @media (min-width: 992px) {
       .container {
@@ -72,6 +73,8 @@ p {
     width: 1170px;
   }
 }
+
+
 
 /* HEADER */
 header {
