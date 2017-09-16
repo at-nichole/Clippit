@@ -55,12 +55,16 @@ p {
 
   @media (min-width: 320px) {
     header .hero img {
-   display: block;
-   margin:3em auto 0;
-   width: 75%;
- }
+       display: block;
+       margin:3em auto 0;
+       width: 75%;
+     }
+     header nav ul {
+  display: block;
+  float: center;
+  margin: auto;
+}
     }
-  }
 
     @media (min-width: 992px) {
       .container {
