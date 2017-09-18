@@ -445,11 +445,6 @@ footer .logo{
    font-weight: 100;
  }
 
- /* LEFT BAR ACTIVE LINK */
-.left-nav ul a:active {
-  background-color: #CCCCCC;
-}
-
  .left-nav .items ul li a i {
    width:16px;
    text-align: center;
@@ -490,7 +485,7 @@ footer .logo{
  }
 
  /* LEFT BAR ACTIVE LINK */
-.left-nav ul a.active {
+.left-nav ul a:active {
   background-color: #AD8FB2;
 }
 .currentpage {
