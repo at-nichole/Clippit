@@ -48,10 +48,11 @@ p {
 .one-half, .one-third, .one-fourth {
    width:96%;
    float:left;
-   position:relative;
+   position: relative;
    min-height: 1px;
-   margin:0 2% 20px;
+   margin:0 2% 25px;
  }
+
 
   @media (min-width: 320px) {
     header .hero img {
@@ -59,13 +60,26 @@ p {
        margin:3em auto 0;
        width: 75%;
      }
-     header nav ul {
-  display: block;
-  float: center;
-  margin: auto;
-}
     }
 
+    header .site-logo img {
+     display: block;
+     margin: auto;
+    }
+  }
+
+
+    /* Tablet */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  .one-half {
+    margin: auto;
+    width: 50%;
+  }
+}
     @media (min-width: 992px) {
       .container {
         width: 970px;
@@ -334,6 +348,7 @@ header .hero {
   /* Personal CTA*/
 
   .finalsignup {
+    color: #ffffff;
     background: #34495E url("../images/BenefitsBG.png") top center no-repeat;
     background: url("../images/BenefitsBG.png") top center no-repeat, linear-gradient(206deg, #846B88 0%, #39334B 92%);
     background-size:cover;
@@ -343,6 +358,10 @@ header .hero {
 
   .finalsignup p, h2 {
     text-align: center;
+  }
+
+  .finalsignup .btn {
+    margin-top: 35px;
   }
 
   /* FOOTER */
@@ -379,21 +398,29 @@ footer .logo{
   display: block;
 }
 
+footer .one-third {
+  margin: 0;
+}
+
 @media (min-width: 992px){
   footer{
     background-color: #3A354C;
     background-image: linear-gradient(to top206deg, #846B88 0%, #39334B 80%);
     height: 100px;
+    padding: 0;
   }
   footer p, footer nav ul{
-    padding: 2em 0;
+  padding: 2em 2em;
     text-align: left;
   }
   footer .right-footer-block {
+    float: right;
     background-color: #FF8080;
+    height: 100px;
+    padding: 2em 0;
   }
   footer .logo{
-    padding: 2em 0 2em 1.5em;
+    padding: 0px;
   }
 }
 
