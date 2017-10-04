@@ -23,6 +23,11 @@ p {
   font-weight: 100;
 }
 
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
 /* GRID */
 
 .container {
@@ -433,6 +438,7 @@ footer .one-third {
 .left-nav {
   height: 100%;
   width:280px;
+  float:left;
   position:absolute;
 -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -536,6 +542,7 @@ footer .one-third {
    text-align: center;
    margin-right:8px;
  }
+
 
  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
