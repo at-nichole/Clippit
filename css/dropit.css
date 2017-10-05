@@ -58,7 +58,7 @@
    right: 0; /* dropdown left or right */
    z-index: 1000;
    display: block;
-   min-width: 155px;
+   min-width: 165px;
    list-style: none;
    padding: 10px;
    margin: 20 0 20px;
